@@ -1,0 +1,17 @@
+{
+  "name": "sauce_demo_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headless -b chrome"
+  },
+  "author": "Tomasz Sliwa",
+  "license": "ISC"
+}
